@@ -1,5 +1,5 @@
 import discord
-from editdistance import eval as levdist
+# from editdistance import eval as levdist
 from colour import Color
 import sqlite3
 import sys
