@@ -1,0 +1,4 @@
+data.db
+token.txt
+__pycache__/**/*
+.vscode/**/*
