@@ -263,9 +263,9 @@ commands_docs = {
         Shows a color with the give RGB components.\n
         <red>, <green> and <blue> are integer values ranging from 0 to 255.
     ''',),
-    'hsl': ('hsl <hue> <saturation> <luminance>', '''
+    'hsl': ('hsl <hue> <saturation> <lightness>', '''
         Shows a color with the give HSL components.\n
-        <hue>, <saturation> and <luminance> are decimal values ranging from 0 to 1.
+        <hue>, <saturation> and <lightness> are decimal values ranging from 0 to 1.
     ''',),
 }
 
@@ -367,7 +367,7 @@ async def on_message(message):
                         **##random**  ─  *Show a random color.*\n
                         **##show <color>**  ─  *Display <color>.*\n
                         **##rgb <red> <green> <blue>**  ─  *Display a color from RGB components.*\n
-                        **##hsl <hue> <saturation> <luminance>**  ─  *Display a color from HSL components.*
+                        **##hsl <hue> <saturation> <lightness>**  ─  *Display a color from HSL components.*
                         ''',
                         colour=color_to_int(random_color())
                     ))
